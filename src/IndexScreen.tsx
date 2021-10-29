@@ -4,6 +4,8 @@ import Home from './components/Home';
 import Container from './components/Container';
 import Imgs from './components/Imgs';
 import BgImg from './components/BgImg';
+import Btns from './components/Btns';
+import Touchables from './components/Touchables';
 
 const IndexScreen = () => {
   return (
@@ -13,6 +15,8 @@ const IndexScreen = () => {
           <Home />
           <Imgs />
           <BgImg />
+          <Btns />
+          <Touchables />
         </Container>
       </View>
     </ScrollView>
